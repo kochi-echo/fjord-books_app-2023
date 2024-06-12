@@ -80,3 +80,5 @@ group :test do
 end
 
 gem 'carrierwave'
+
+gem "schema_comments", "~> 0.5.0"

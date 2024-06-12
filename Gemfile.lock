@@ -228,6 +228,9 @@ GEM
     ruby-vips (2.1.4)
       ffi (~> 1.12)
     rubyzip (2.3.2)
+    schema_comments (0.5.0)
+      activerecord (>= 4.0.0)
+      activesupport (>= 4.0.0)
     selenium-webdriver (4.11.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
@@ -283,6 +286,7 @@ DEPENDENCIES
   rubocop (~> 1.45.1)
   rubocop-fjord
   rubocop-rails
+  schema_comments (~> 0.5.0)
   selenium-webdriver
   sprockets-rails
   sqlite3
