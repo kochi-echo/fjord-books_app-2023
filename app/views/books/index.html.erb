@@ -6,9 +6,10 @@
   <% @books.each do |book| %>
     <%= render book %>
     <p>
-      <%= link_to "Show this book", book %>
+      <%= link_to Book.human_attribute_name(:show), book %>
     </p>
   <% end %>
 </div>
 
-<%= link_to "New book", new_book_path %>
+<%= link_to Book.human_attribute_name(:new), new_book_path %>
+

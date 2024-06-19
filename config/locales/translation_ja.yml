@@ -9,3 +9,5 @@ ja:
         memo: メモ  #g
         picture: 写真  #g
         title: タイトル  #g
+        show: 詳細表示 #g
+        new: 新規作成 #g
