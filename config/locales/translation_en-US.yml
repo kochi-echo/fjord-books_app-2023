@@ -9,3 +9,9 @@ en-US:
         memo: Memo  #g
         picture: Picture  #g
         title: Title  #g
+        show: Show this book
+        new: New book
+        edit: Edit this book
+        back: Back to books
+        destroy: Destroy this book
+        editing: Editing book

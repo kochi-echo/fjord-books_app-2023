@@ -1,10 +1,10 @@
-<h1>Editing book</h1>
+<h1><%= Book.human_attribute_name(:editing) %></h1>
 
 <%= render "form", book: @book %>
 
 <br>
 
 <div>
-  <%= link_to "Show this book", @book %> |
-  <%= link_to "Back to books", books_path %>
+  <%= link_to Book.human_attribute_name(:edit), @book %> |
+  <%= link_to Book.human_attribute_name(:back), books_path %>
 </div>
