@@ -2,14 +2,17 @@
 
 <h1>Books</h1>
 
-<div id="books">
+<div id="books" class="index-items">
   <% @books.each do |book| %>
-    <%= render book %>
-    <p>
-      <%= link_to Book.human_attribute_name(:show), book %>
-    </p>
+    <div class="index-item">
+      <%= render book %>
+      <p>
+        <%= link_to Book.human_attribute_name(:show), book %>
+      </p>
+    </div>
   <% end %>
 </div>
 
-<%= link_to Book.human_attribute_name(:new), new_book_path %>
-
+<nav class="page-nav">
+  <%= link_to Book.human_attribute_name(:new), new_book_path %>
+</nav>
