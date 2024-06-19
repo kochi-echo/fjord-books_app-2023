@@ -80,3 +80,7 @@ group :test do
 end
 
 gem 'carrierwave'
+
+gem 'schema_comments', '~> 0.5.0'
+
+gem 'i18n_generators', '~> 2.2'
