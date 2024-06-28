@@ -3,8 +3,7 @@
 <%= render @book %>
 
 <nav class="page-nav">
-  <%= link_to Book.human_attribute_name(:edit), edit_book_path(@book) %> |
-  <%= link_to Book.human_attribute_name(:back), books_path %>
-
-  <%= button_to Book.human_attribute_name(:destroy), @book, method: :delete %>
+  <%= link_to t('.edit'), edit_book_path(@book) %>
+  <%= link_to t('.back'), books_path %>
+  <%= button_to t('.delete'), @book, method: :delete %>
 </nav>

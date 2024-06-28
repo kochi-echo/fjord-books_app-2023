@@ -1,17 +1,31 @@
 ja:
   activerecord:
     models:
-      book: 本  #g
+      book: 本
 
     attributes:
       book:
-        author: 著者  #g
-        memo: メモ  #g
-        picture: 写真  #g
-        title: タイトル  #g
-        show: 詳細表示
-        new: 新規作成
-        edit: 編集
-        back: 戻る
-        destroy: 削除
-        editing: 編集中
+        author: 著者
+        memo: メモ
+        picture: 写真
+        title: タイトル
+
+  books:
+    index:
+      books: 書籍
+      show: 詳細表示
+      new: 新規作成
+
+    new:
+      new: 新規作成
+      back: 戻る
+
+    show:
+      edit: 編集
+      back: 戻る
+      delete: 削除
+
+    edit:
+      editing: 編集中
+      show: 本の詳細に戻る
+      back: 書籍一覧に戻る

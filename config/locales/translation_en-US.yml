@@ -1,17 +1,32 @@
 en-US:
   activerecord:
     models:
-      book: Book  #g
+      book: Book
 
     attributes:
       book:
-        author: Author  #g
-        memo: Memo  #g
-        picture: Picture  #g
-        title: Title  #g
-        show: Show this book
-        new: New book
-        edit: Edit this book
-        back: Back to books
-        destroy: Destroy this book
-        editing: Editing book
+        author: Author
+        memo: Memo
+        picture: Picture
+        title: Title
+
+  books:
+    index:
+      books: Books
+      show: Show this book
+      new: New book
+
+    new:
+      new: New book
+      back: Back to books
+
+    show:
+      edit: Edit this book
+      back: Back to books
+      delete: Destroy this book
+
+    edit:
+      editing: Editing book
+      show: Show this book
+      back: Back to books
+
