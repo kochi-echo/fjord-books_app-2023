@@ -3,7 +3,7 @@
 <%= render @book %>
 
 <nav class="page-nav">
-  <%= link_to t('.edit'), edit_book_path(@book) %>
-  <%= link_to t('.back'), books_path %>
-  <%= button_to t('.delete'), @book, method: :delete %>
+  <%= link_to I18n.t('user_operation.edit_book'), edit_book_path(@book) %>
+  <%= link_to I18n.t('user_operation.back_to_top'), books_path %>
+  <%= button_to I18n.t('user_operation.delete_book'), @book, method: :delete %>
 </nav>
