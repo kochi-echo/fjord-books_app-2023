@@ -11,21 +11,13 @@ ja:
         title: タイトル
 
   books:
-    index:
-      books: 書籍
-      show: 詳細表示
-      new: 新規作成
-
-    new:
-      new: 新規作成
-      back: 戻る
-
-    show:
-      edit: 編集
-      back: 戻る
-      delete: 削除
-
     edit:
       editing: 編集中
-      show: 本の詳細に戻る
-      back: 書籍一覧に戻る
+      back_to_detail: 本の詳細に戻る
+  
+  user_operation:
+    new_book: 新規作成
+    show_book: 詳細表示
+    edit_book: 編集
+    delete_book: 削除
+    back_to_top: 書籍一覧に戻る

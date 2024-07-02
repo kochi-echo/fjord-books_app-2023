@@ -11,22 +11,13 @@ en-US:
         title: Title
 
   books:
-    index:
-      books: Books
-      show: Show this book
-      new: New book
-
-    new:
-      new: New book
-      back: Back to books
-
-    show:
-      edit: Edit this book
-      back: Back to books
-      delete: Destroy this book
-
     edit:
       editing: Editing book
-      show: Show this book
-      back: Back to books
-
+      back_to_detail: Show this book
+  
+  user_operation:
+    new_book: New book
+    show_book: Show this book
+    edit_book: Edit this book
+    delete_book: Destroy this book
+    back_to_top: Back to books
