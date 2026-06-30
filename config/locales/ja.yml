@@ -19,7 +19,7 @@ ja:
     destroy:
         
   user_operation:
-    new_book: 新規作成
+    new_book: 新規追加
     show_book: 詳細表示
     edit_book: 編集
     delete_book: 削除
@@ -27,6 +27,6 @@ ja:
 
   flash:
     books:
-      create: 本を作成しました。
+      create: 本を追加しました。
       update: 本を更新しました。
       destroy: 本を削除しました。 
