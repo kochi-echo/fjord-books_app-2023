@@ -1,4 +1,4 @@
-en-US:
+en:
   activerecord:
     models:
       book: Book
