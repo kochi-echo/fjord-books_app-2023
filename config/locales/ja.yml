@@ -15,15 +15,18 @@ ja:
       editing: 編集中
       back_to_detail: 本の詳細に戻る
     create:
-      success: 本を作成しました。
     update:
-      success: 本を更新しました。
     destroy:
-      success: 本を削除しました。
-  
+        
   user_operation:
     new_book: 新規作成
     show_book: 詳細表示
     edit_book: 編集
     delete_book: 削除
     back_to_top: 書籍一覧に戻る
+
+  flash:
+    books:
+      create: 本を作成しました。
+      update: 本を更新しました。
+      destroy: 本を削除しました。 

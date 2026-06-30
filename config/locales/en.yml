@@ -15,15 +15,18 @@ en:
       editing: Editing book
       back_to_detail: Show this book
     create:
-      success: Book was successfully created.
     update:
-      success: Book was successfully updated.
     destroy:
-      success: Book was successfully destroyed.
-
+      
   user_operation:
     new_book: New book
     show_book: Show this book
     edit_book: Edit this book
     delete_book: Destroy this book
     back_to_top: Back to books
+
+  flash:
+    books:
+      create: Book was successfully created.
+      update: Book was successfully updated.
+      destroy: Book was successfully deleted.
