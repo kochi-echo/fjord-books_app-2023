@@ -18,7 +18,7 @@ en:
     edit:
       title: Editing book
       
-  user_operation:
+  navigation:
     new_book: New book
     show_book: Show this book
     edit_book: Edit this book

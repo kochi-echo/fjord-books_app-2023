@@ -18,9 +18,9 @@ ja:
     edit:
       title: 編集中
         
-  user_operation:
+  navigation:
     new_book: 新規追加
-    show_book: 詳細表示
+    show_book: 詳細
     edit_book: 編集
     delete_book: 削除
     back_to_top: 書籍一覧に戻る
