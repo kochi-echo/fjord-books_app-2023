@@ -1,7 +1,7 @@
 ja:
   activerecord:
     models:
-      book: 本
+      book: 書籍
 
     attributes:
       book:
@@ -27,6 +27,6 @@ ja:
 
   flash:
     books:
-      create: 本を追加しました。
-      update: 本を更新しました。
-      destroy: 本を削除しました。 
+      create: 書籍を追加しました。
+      update: 書籍を更新しました。
+      destroy: 書籍を削除しました。
