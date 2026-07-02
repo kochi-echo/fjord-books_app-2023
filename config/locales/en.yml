@@ -11,12 +11,12 @@ en:
         title: Title
 
   books:
+    index:
+      title: Books
+    new:
+      title: New book
     edit:
-      editing: Editing book
-      back_to_detail: Show this book
-    create:
-    update:
-    destroy:
+      title: Editing book
       
   user_operation:
     new_book: New book

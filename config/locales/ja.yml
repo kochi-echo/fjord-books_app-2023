@@ -11,12 +11,12 @@ ja:
         title: タイトル
 
   books:
+    index:
+      title: 書籍一覧
+    new:
+      title: 新規追加
     edit:
-      editing: 編集中
-      back_to_detail: 本の詳細に戻る
-    create:
-    update:
-    destroy:
+      title: 編集中
         
   user_operation:
     new_book: 新規追加
