@@ -22,7 +22,7 @@ ja:
     new_book: 新規追加
     show_book: 詳細
     edit_book: 編集
-    delete_book: 削除
+    destroy_book: 削除
     back_to_top: 書籍一覧に戻る
 
   flash:

@@ -22,7 +22,7 @@ en:
     new_book: New book
     show_book: Show this book
     edit_book: Edit this book
-    delete_book: Destroy this book
+    destroy_book: Delete this book
     back_to_top: Back to books
 
   flash:
