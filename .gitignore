@@ -37,3 +37,6 @@
 /public/uploads
 
 .env
+
+# Ignore codex config files
+AGENTS.md
