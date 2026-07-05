@@ -17,7 +17,7 @@ en:
       title: New book
     edit:
       title: Editing book
-      
+
   navigation:
     new_book: New book
     show_book: Show this book
