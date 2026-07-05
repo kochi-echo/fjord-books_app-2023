@@ -83,4 +83,4 @@ gem 'carrierwave'
 
 gem 'i18n_generators', '~> 2.2'
 
-gem "rails-i18n", "~> 7.0"
+gem 'rails-i18n', '~> 7.0'
