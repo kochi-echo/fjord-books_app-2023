@@ -3,7 +3,7 @@
 <%= render @book %>
 
 <nav class="page-nav">
-  <%= link_to t("navigation.edit_book"), edit_book_path(@book) %>
-  <%= link_to t("navigation.back_to_top"), books_path %>
-  <%= button_to t("navigation.destroy_book"), @book, method: :delete %>
+  <%= link_to t("actions.edit_book"), edit_book_path(@book) %>
+  <%= link_to t("actions.back_to_top"), books_path %>
+  <%= button_to t("actions.destroy_book"), @book, method: :delete %>
 </nav>

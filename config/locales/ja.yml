@@ -18,7 +18,7 @@ ja:
     edit:
       title: 編集中
 
-  navigation:
+  actions:
     new_book: 新規追加
     show_book: 詳細
     edit_book: 編集
